@@ -2,6 +2,7 @@
     display: flex;
     justify-content:space-between;
     border:1px solid black;
+   
 }
 .logo{
     width: 200px;
@@ -12,10 +13,17 @@
     display: flex;
     font-size: 24px;
     list-style-type: none;
+
+    
 }
+.header:hover{
+    cursor: pointer;
+}
+    
 .nav-items>ul>li{
     padding: 10px;
     margin:10px;
+   
 }
 .res-card{
     width: 300px;

@@ -4,7 +4,7 @@
   "description": "This is Namasthey React by Harsha",
  
   "scripts": {
-    "start": "npx parcel index.html",
+    "start": "PORT=3001 npx parcel index.html",
     "build": "npx parcel build index.html",
     "test": "jest"
   },
