@@ -39,7 +39,7 @@
     border:1px solid black;
 }
 .search{
-    padding: 20px;
+    padding: 5px;
 
 }
 .res-logo{
@@ -48,4 +48,31 @@
 .res-container{
     display: flex;
     flex-wrap: wrap;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    width: 300px;
+    padding: 15px;
+    padding-left: 5px;
+    margin: 15px;
+    height: 500px;
+    background-color:rgb(239, 244, 249) ;
+
+}
+.login{
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 15px;
+
+}
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-btn{
+    margin: 5px;
+    cursor: pointer;
 }
