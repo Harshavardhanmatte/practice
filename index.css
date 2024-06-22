@@ -13,6 +13,8 @@
     display: flex;
     font-size: 24px;
     list-style-type: none;
+    padding: 10px;
+    margin:10px;
 
     
 }
@@ -75,4 +77,8 @@
 .filter-btn{
     margin: 5px;
     cursor: pointer;
+}
+.nav-items{
+    padding: 10px;
+    margin:10px;
 }
