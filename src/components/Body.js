@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 const Body = () => {
   const [listOfResturants, setlistOfResturants] = useState([]);
   const [filteredResturant, setfilteredResturant] = useState([]);
@@ -22,6 +23,9 @@ const Body = () => {
     setlistOfResturants(datas);
     setfilteredResturant(datas);
   };
+
+  const  onlineStatus =useOnlineStatus();
+  if(onlineStatus === false)return <h1>your offline !!.. Please check your internet Connection and try again</h1>
 
   return listOfResturants == 0 ? (
     <Shimmer />
